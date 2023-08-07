@@ -12,9 +12,11 @@ Bluetooth Low Energy beacons are compact and portable devices which broadcast th
 
 # Project structure
 
-As said in [project summary](#project-summary) consits of two mobile applications and a RESTful service.
+Summary of the project's structure and workflow, can be seen, in the diagram below:![link](https://raw.githubusercontent.com/sashko9807/beacon-personalized-content-delivery-service/main/diagram.svg)
 
 ## BeaconMS
+
+[Source code](https://github.com/sashko9807/BeaconMS) &nbsp; [APK Download](https://github.com/sashko9807/BeaconMS/releases/tag/v1.0.0)
 
 _Used technologies: React Native, Redux Toolkit, RTK Query, React Hook Form_  
 _Supported OS: Android_
@@ -31,6 +33,8 @@ The application provides:
 
 ## BeaconScanner
 
+[Source code](https://github.com/sashko9807/BeaconScanner) &nbsp; [APK Download](https://github.com/sashko9807/BeaconScanner/releases/tag/v1.0.0)
+
 _Used technologies: React Native, Realm, Axios, Firebase Cloud messaging_  
 _Supported OS: Android_
 
@@ -44,6 +48,8 @@ The application provides:
 - In order to ensure application's local database is synchronized with the server database, whenever beacon data update is initiated from BeaconMS(or via API calls), a silent push notification is sent through Firebase Cloud Messaging, to all devices having BeaconScanner installed and running either in foreground or background.
 
 ## RESTful service
+
+[Source code](https://github.com/sashko9807/beacon-restful-service)
 
 _Used technologies: Express.js, Mongoose, Sendgrid, Firebase Cloud messaging_  
 _Supported OS: Any OS supporting Node.js enviroment_
