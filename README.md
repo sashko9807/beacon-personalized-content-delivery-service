@@ -16,7 +16,7 @@ Summary of the project's structure and workflow, can be seen, in the diagram bel
 
 ## BeaconMS
 
-[Source code](https://github.com/sashko9807/BeaconMS) &nbsp; [APK Download](https://github.com/sashko9807/BeaconMS/releases/tag/v1.0.0)
+[Source code](https://github.com/sashko9807/BeaconMS) &nbsp; [APK Download](https://github.com/sashko9807/BeaconMS/releases/latest)
 
 _Used technologies: React Native, Redux Toolkit, RTK Query, React Hook Form_  
 _Supported OS: Android_
@@ -33,7 +33,7 @@ The application provides:
 
 ## BeaconScanner
 
-[Source code](https://github.com/sashko9807/BeaconScanner) &nbsp; [APK Download](https://github.com/sashko9807/BeaconScanner/releases/tag/v1.0.0)
+[Source code](https://github.com/sashko9807/BeaconScanner) &nbsp; [APK Download](https://github.com/sashko9807/BeaconScanner/releases/latest)
 
 _Used technologies: React Native, Realm, Axios, Firebase Cloud messaging_  
 _Supported OS: Android_
